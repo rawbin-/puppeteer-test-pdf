@@ -35,8 +35,9 @@ setTimeout(async () => {
         htmlPath: htmlPathAb,
         path: pdfPath,
         format: format,
-        printBackground: true,
+        printBackground: false,
         landscape:true,
+        preferCSSPageSize:true,
         margin: {
             top: '23.13mm',
             bottom: '25mm',
